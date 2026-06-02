@@ -48,7 +48,13 @@ export default function ProjectCard({ project }: Props) {
 
   if (project.url) {
     return (
-      <a href={project.url} target="_blank" rel="noopener noreferrer" className={styles.link}>
+      <a
+        href={project.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={`View ${project.title} project`}
+        className={styles.link}
+      >
         {card}
       </a>
     )
