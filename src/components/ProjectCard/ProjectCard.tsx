@@ -29,7 +29,7 @@ export default function ProjectCard({ project }: Props) {
   const card = (
     <div ref={ref} className={`${styles.card} ${visible ? styles.visible : ''}`}>
       <div className={styles.imageWrap}>
-        <img src={project.image} alt={project.title} loading="lazy" className={styles.image} />
+        <img src={project.image} alt={project.title} loading="lazy" width="640" height="360" className={styles.image} />
         {project.url && <div className={styles.overlay}>View Project →</div>}
       </div>
       <div className={styles.body}>

@@ -88,7 +88,7 @@ export default function Hero() {
           {/* Center — photo */}
           <div className={styles.center}>
             <div className={styles.photoRing}>
-              <img src={headshot} alt="Nitin Mathew" className={styles.photo} />
+              <img src={headshot} alt="Nitin Mathew" width="380" height="380" className={styles.photo} />
             </div>
           </div>
 
