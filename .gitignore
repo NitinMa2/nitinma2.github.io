@@ -1,0 +1,26 @@
+# Astro
+dist/
+.astro/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Editor
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+*.log
